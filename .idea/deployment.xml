@@ -1,7 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="PublishConfigData" remoteFilesAllowedToDisappearOnAutoupload="false">
+  <component name="PublishConfigData" autoUpload="Always" serverName="stu@192.168.52.100:22" remoteFilesAllowedToDisappearOnAutoupload="false">
     <serverData>
+      <paths name="file">
+        <serverdata>
+          <mappings>
+            <mapping deploy="/" local="$PROJECT_DIR$" web="/" />
+          </mappings>
+        </serverdata>
+      </paths>
       <paths name="pyvip@192.168.1.10:22">
         <serverdata>
           <mappings>
@@ -9,6 +16,14 @@
           </mappings>
         </serverdata>
       </paths>
+      <paths name="stu@192.168.52.100:22">
+        <serverdata>
+          <mappings>
+            <mapping deploy="/home/stu/PycharmProjects/file" local="$PROJECT_DIR$" />
+          </mappings>
+        </serverdata>
+      </paths>
     </serverData>
+    <option name="myAutoUpload" value="ALWAYS" />
   </component>
 </project>
